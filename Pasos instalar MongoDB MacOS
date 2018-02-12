@@ -1,0 +1,27 @@
+Pasos para instalar Mongo en MACOS 
+
+1.Abrir la consola del sistema y actualizar Homebrew.
+
+brew update`&mdash;`
+
+2.Procedemos a instalar MongoDB con el comando:
+
+brew install mongodb`&mdash;`
+
+3.Creamos el directorio donde el servidor de MongoDB guardará la información de cada base de datos.
+
+4.Desde la consola del sistema ejecuta:
+
+mkdir -p /data/db`&mdash;`
+
+Asignamos los permisos necesarios para que el servidor pueda escribir en ese directorio.
+
+sudo chown -R `id -un` /data/db`&mdash;`
+
+5.En el terminal ejecutamos el servidor llamado mongod.
+
+mongod`&mdash;`
+
+6.Abrimos una nueva ventana de terminal para la shell de Mongo, importante ejecutar el servidor primero.
+
+mongo`&mdash;`
