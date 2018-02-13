@@ -1,0 +1,26 @@
+Pasos para instalar MongoDB en Windows
+
+1. Dirección de Instalador de MongoDB
+
+Este es un []https://www.mongodb.com/download-center?jmp=nav#community).
+
+
+2. Una vez descargados dar click derecho y ejecutar como Administrador  seguimos el proceso de instalación
+
+3. Para Mongo DB creamos en la carpeta en C: con nombre data ,dentro de data una carpeta llamada db
+
+ C:\data `<blink>`
+ C:\data\db `<blink>`
+
+4. Para iniciar el servicio de Mongo nos dirijimos a la siguiente ruta.
+
+
+"C:\Archvos de Programa\MongoDB\Server\3.4\bin\mongod.exe"
+
+5. Nos abrira una ventana de comandos esperamos que indica que se está inicializando la Base de Datos.
+
+6.Para ejecutar el servicio de Mongo nos dirijimos a la siguiente ruta.
+
+"C:\Archvos de Programa\MongoDB\Server\3.4\bin\mongod.exe"
+
+7. La base de datos está inicializada.
