@@ -1,0 +1,43 @@
+Pasos para instalar Python en los Sistemas Operativos
+
+Windows
+
+1. Nos dirijimos a la siguiente dirección web
+
+https://www.python.org/downloads/release/python-364/
+
+2. Es importante recordar la ruta (el directorio) donde se ha instalado Python.
+
+3. En la segunda pantalla del asistente de instalación, llamada "Customize", nos dirijimos  hacia abajo y elegir la opción "Add python.exe to the Path.
+
+4. Continuamos el proceso de instalación hasta finalizar
+
+Ubuntu
+ 
+1. En ubuntu predeterminadamente viente instalado Python
+
+2. Abrimos la terminal y digitamos python para verificar la versión de Python digitamos
+
+python
+
+3. Si deseamos actualizar la versión de Python,digitamos
+
+sudo apt-get install python3.6
+
+4. Esperamos que finalize la instalación y luego digitamos en el terminal
+
+python3
+
+Mac
+
+1. Nos dirijimos a la siguiente dirección web
+
+https://www.python.org/downloads/release/python-364/
+
+2. Escogemos el archivo dmg para 32 o 64 bits
+
+3.Hacemos doble click en python.mpkg para ejecutar al instalador.
+
+4.Abrimos la Terminal y ejecutando el comando python3:
+
+python3 --version
